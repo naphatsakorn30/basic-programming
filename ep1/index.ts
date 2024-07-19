@@ -1,0 +1,1 @@
+const fullName:string = 'นภัสกร ศรีวงษืชัย'
