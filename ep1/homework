@@ -1,0 +1,21 @@
+const firstname: 'naphatsakorn'
+
+var x = 5  // ตัวเลข
+var y = 10 
+var msg = 'hello'
+var msg = "hello"
+var isPerson = false 
+
+
+const a: number = 5 //ตัวเลข
+const b: number = 6 //ตัวเลข
+console.log(a===b) //เท่ากัน
+console.log(a>b)//มากกว่า
+console.log(a<=b) //น้อยกว่าเท่ากับ
+var isPerson :boolean = true //ค่าแสดงจริงเท็จ
+
+let x = 6
+let y = 10
+
+
+
