@@ -31,3 +31,24 @@ function aom(asex: string, sheight: number, weight: number) {
 }
 aom('female', 175, 80)
 
+
+
+function BMI (weight: number, height: number){
+    height = height / 100;
+    let BMI: number = weight / (height*height)
+    
+    if (BMI <18.50 ){
+        console.log('น้ำหนักน้อย')    
+    }else if (BMI >= 18.50 && BMI <= 22.90 ){
+        console.log('น้ำหนักปกติ')
+    }else if (BMI >= 23 && BMI <= 24.90 ){
+        console.log('ท้วม')
+    }else if (BMI >= 25 && BMI <= 29.90){
+        console.log('อ้วน')
+    }else if (BMI  >= 30) {
+        console.log('อ้วนมาก')
+    }
+}
+BMI(54,170)
+
+
