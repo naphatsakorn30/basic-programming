@@ -46,3 +46,31 @@ function sayhi(dayofWeek: number){
     }    
 }
 sayhi(2)
+const x: number = 999999999999999
+const y: number = 999999999999999
+
+const z: number = 0.1 + 0.2 
+
+console.log(x)
+console.log(y)
+console.log(z)
+
+
+function fixedDecimal (n: number, digit: number){
+    const x = n.toFixed(digit)
+    return x
+}
+console.log(fixedDecimal (50.1888888888,6))
+
+function cm(n: number){
+    const a = n.toLocaleString( )
+    return a 
+}
+console.log(cm(100000000))
+
+
+
+const str: string =  "Naphatsakorn"
+console.log(str.indexOf('k'))
+ 
+
