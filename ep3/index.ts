@@ -36,17 +36,18 @@ function BMI (weight: number, height: number){
     let BMI: number = weight / (height*height)
     
     if (BMI <18.50 ){
-        console.log('น้ำหนักน้อย')    
+        console.log('น้ำหนักน้อย/ผอม')    
     }else if (BMI >= 18.50 && BMI <= 22.90 ){
-        console.log('น้ำหนักปกติ')
+        console.log('น้ำหนักปกติ/สุขภาพดี')
     }else if (BMI >= 23 && BMI <= 24.90 ){
-        console.log('ท้วม')
+        console.log('ท้วม/โรคอ้วนระดับ1')
     }else if (BMI >= 25 && BMI <= 29.90){
-        console.log('อ้วน')
+        console.log('อ้วน/โรคอ้วนระดับ2')
     }else if (BMI  >= 30) {
-        console.log('อ้วนมาก')
+        console.log('อ้วนมาก/โรคอ้วนระดับ3')
     }
 }
 BMI(54,170)
 
 
+    
