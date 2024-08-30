@@ -43,3 +43,14 @@ console.log ('slice 0-2:' , animalsNameArray.slice(0,2))
 const fruits = ["Banana","Orange","Apple","Mango"]
 console.log(fruits.sort())  
 console.log(fruits.reverse())
+const me ={
+    firtName:  'Naphatsakorn',
+    LastName:  'Sriwongchai',
+    age : 21
+}
+
+// ประวัติของฉัน
+
+//ชื่อ: Naphatsakorn
+//นามสกุล : Sriwongchai
+//อายุ: 21
